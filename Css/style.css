@@ -1,0 +1,95 @@
+/* Reiniciar márgenes y relleno predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del cuerpo */
+body {
+    background: #f0f0f0;
+    font-family: 'Lobster', cursive; /* Fuente estilizada */
+}
+
+.areaPrincipal {
+    background-image: url(../Img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste automático a la pantalla */
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+    border-top: 3pt solid #ff6600; 
+}
+.galeria img{
+        width: 300px; 
+        height: auto;
+}
+
+#encabezado {
+    background: rgb(22, 18, 18);
+    height: 250px;
+    text-align: center;
+    background-image: url(../Img/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 280px 250px;
+    background-position: center center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra para efecto de profundidad */
+}
+#menu {
+    height: 100px;
+    position: absolute;
+    top: 202px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease; /* Transición para efectos de hover */
+}
+
+li a:hover {
+    background-color: #ff6600; /* Color vibrante al pasar el cursor */
+    transform: scale(1.1); /* Agranda el botón al pasar el cursor */
+}
+
+#datos {
+    width: 80%;
+    background-color: #ffffff;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    opacity: 1;
+    color: #2a3e55;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para darle profundidad */
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+}
+
+.piePagina {
+    width: 100%;
+    height: 100px;
+    background: #15101b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-top: 3pt solid #ff6600; /* Línea superior para delimitar el pie de página */
+}
